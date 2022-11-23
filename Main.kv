@@ -1,0 +1,39 @@
+MainWidget:
+<Screen>:
+    MainWidget:
+        orientation: "vertical"
+        size_hint: 1, .98
+        pos_hint: {"center_y": 0.5}
+        OptionButton:
+            orientation: "vertical"
+            size_hint: 1, .2
+            background_color: 0, 0, 1, 1
+            OptionMain:
+        Main: 
+            size_hint: .8, 1.5
+            pos_hint: {"center_x": 0.5}
+        Keyboard: 
+            size_hint: .98, .8
+            pos_hint: {"center_x": 0.5}
+            orientation: "vertical"
+            KeyboardRow1:
+                rows: 1
+                size_hint: 1, .8
+                background_color: 1, 1, 1, 1
+            KeyboardRow2:
+                rows: 1
+                size_hint: 1, .8
+                background_color: 1, 1, 1, 1
+            KeyboardRow3:
+                rows: 1
+                size_hint: 1, .8
+                background_color: 1, 1, 1, 1
+        Submit: 
+            size_hint: .98, .2
+            pos_hint: {"center_x": 0.5}
+
+<StartScreen>:
+    StartMenu:
+        orientation: "vertical"
+        size_hint: .90, .90
+        pos_hint: {"center_y": 0.5}
